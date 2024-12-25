@@ -33,10 +33,10 @@ const App = () => {
   );
 
   return (
-    <div className="App">
+    <div className="App  bg-zinc-900">
       <Header searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
       
-      <div className="flex flex-wrap">
+      <div className="flex flex-wrap bg-zinc-800">
         {filteredData.map((element, index) => (
           <Cards
             key={index}
